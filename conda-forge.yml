@@ -6,5 +6,7 @@ conda_build:
   pkg_format: '2'
 bot:
   automerge: true
+  version_updates:
+    allowed_tag_globs: "rocm-*"
 conda_install_tool: pixi
 conda_build_tool: rattler-build
